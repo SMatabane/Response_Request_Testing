@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RespReqSuite">
+    
+
+    <!-- Define the test for different groups -->
+    <test name="All-Tests" thread-count="4">
+        
+        <classes>
+            <class name="com.resreq.tests.DeleteRequest" />
+            <class name="com.resreq.tests.GetRequest" />
+            <class name="com.resreq.tests.PatchRequest" />
+            <class name="com.resreq.tests.PostRquest" />
+        </classes>
+    </test>
+
+    
+
+</suite>
